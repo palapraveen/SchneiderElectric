@@ -1,6 +1,7 @@
 # Schneider Electric
 
 step 1 : download the zip file and uzip the SchneiderElectric file 
+
 step 2 : run the index file
  
          2.1 ) on click of life goes image will shuffle
