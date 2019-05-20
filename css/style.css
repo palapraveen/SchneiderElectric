@@ -21,20 +21,14 @@
     list-style: none;
 }
 
-.square-shape img:hover {
+.square-shape img:hover,.traingle-shape img:hover,.rectangle-shape img:hover {
     transform: rotateY(180deg);
  }
-
-.traingle-shape img:hover{
-  transform: rotateY(180deg);
-}
 
 .circle-shape img:hover{
    transform: scale(1.2);
 }
-.rectangle-shape img:hover{
-  transform: rotateY(180deg);
-}
+
  .shuffle_div .rectangle-shape img{
     width: 70%;
 }
