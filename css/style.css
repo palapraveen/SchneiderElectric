@@ -22,8 +22,7 @@
 }
 
 .square-shape img:hover {
-    animation: animate 0.5s;
-    animation-iteration-count: infinite;
+    transform: rotateY(180deg);
  }
 
 .traingle-shape img:hover{
@@ -85,11 +84,6 @@
   transform: skew(-2deg,-10deg) rotate(-51deg);
 }
 
-@keyframes animate {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
   @media (max-width:768px){
     .schneider-section{
         padding: 15px !important;
