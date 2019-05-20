@@ -21,10 +21,21 @@
     list-style: none;
 }
 
-.shuffle_div img:hover {
+.square-shape img:hover {
     animation: animate 0.5s;
     animation-iteration-count: infinite;
  }
+
+.traingle-shape img:hover{
+  transform: rotateY(180deg);
+}
+
+.circle-shape img:hover{
+   transform: scale(1.2);
+}
+.rectangle-shape img:hover{
+  transform: rotateY(180deg);
+}
  .shuffle_div .rectangle-shape img{
     width: 70%;
 }
